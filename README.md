@@ -114,20 +114,6 @@ food-ordering-hub/
 
 ---
 
-## Screenshots
-
-> *Add screenshots of the running application here.*
-
-| View | Preview |
-|---|---|
-| **Home — Dark Mode** | *(screenshot)* |
-| **Home — Light Mode** | *(screenshot)* |
-| **Cart Sidebar Open** | *(screenshot)* |
-| **Checkout Modal** | *(screenshot)* |
-| **Mobile View** | *(screenshot)* |
-
----
-
 ## Installation & Setup
 
 ### Prerequisites
