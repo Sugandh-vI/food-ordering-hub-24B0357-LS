@@ -159,23 +159,6 @@ npm run preview
 
 ---
 
-## Assignment Requirements Coverage
-
-| README Requirement | Implementation |
-|---|---|
-| **Component-Driven UI** | Each food item is rendered via `FoodCard.jsx`; the grid is managed by `MenuGrid.jsx`; no UI is hardcoded |
-| **Food Image on Card** | Local images served from `public/images/`, mapped in `menuData.js` |
-| **Food Name & Price on Card** | Displayed dynamically from `menuData.js` in `FoodCard.jsx` |
-| **"Add to Cart" Button** | Interactive button on every card dispatches `ADD_ITEM` to the global cart reducer |
-| **Cart Sidebar with Item List** | `CartSidebar.jsx` renders all cart items with name, image, and quantity |
-| **Explicit Quantity Display** | Each cart entry shows `× N` quantity and a unit/total price breakdown |
-| **Live Total Price** | Computed in `CartContext.jsx` and updated instantly on every cart mutation |
-| **Live Item Counter Badge** | `totalItems` from context drives the animated badge on the navbar `Cart` button |
-| **Reusable Components** | `FoodCard`, `MenuGrid`, `CartSidebar`, `CheckoutModal`, `Navbar` are fully reusable |
-| **Dynamic React Hooks** | `useReducer`, `useContext`, `useState`, `useMemo`, `useEffect`, plus custom hooks |
-| **No Hardcoding** | All menu data is sourced from `menuData.js`; UI is entirely data-driven |
-
----
 
 ## Learning Outcomes
 
@@ -192,20 +175,6 @@ npm run preview
 
 ---
 
-## Future Improvements
-
-- [ ] Backend integration with a REST API or Firebase for real order management
-- [ ] User authentication (login / sign-up flow)
-- [ ] Persistent order history saved per user
-- [ ] Wishlist / favourites feature
-- [ ] Item detail modal with nutritional information
-- [ ] Real payment gateway integration (Stripe / Razorpay)
-- [ ] Admin dashboard for menu management
-- [ ] Skeleton loading placeholders while images load
-- [ ] Unit and integration tests with Vitest + React Testing Library
-- [ ] Internationalisation (i18n) and multi-currency support
-
----
 
 ## Author
 
@@ -224,6 +193,6 @@ npm run preview
 
 <div align="center">
 
-*Built with React + Vite · WnCC Learning Series 2026*
+*Built with React + Vite*
 
 </div>
